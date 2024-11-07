@@ -1,0 +1,126 @@
+2024-10-31 09:18:18.6796 ERROR Something went wrong: System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.DecCalc.VarDecDiv(DecCalc& d1, DecCalc& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at Entities.ReauestFeature.PagedList`1..ctor(List`1 items, Int32 count, Int32 pagesize, Int32 pagenumer) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Entities\ReauestFeature\PagedList.cs:line 14
+   at Entities.ReauestFeature.PagedList`1.ToPagedList(IEnumerable`1 source, Int32 pageNumber, Int32 pageSize) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Entities\ReauestFeature\PagedList.cs:line 29
+   at Repository.EmplyeeRespository.GetEmployeesAsync(Guid companyId, EmployeeParamtere paramtere, Boolean trackChanges) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Repository\EmplyeeRespository.cs:line 20
+   at Api_New_Feature.Controllers.EmployeesController.GetEmployeesForCompany(Guid companyID, EmployeeParamtere paramtere) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Api_New_Feature\Controllers\EmployeesController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-10-31 09:18:36.3528 ERROR Something went wrong: System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.DecCalc.VarDecDiv(DecCalc& d1, DecCalc& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at Entities.ReauestFeature.PagedList`1..ctor(List`1 items, Int32 count, Int32 pagesize, Int32 pagenumer) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Entities\ReauestFeature\PagedList.cs:line 14
+   at Entities.ReauestFeature.PagedList`1.ToPagedList(IEnumerable`1 source, Int32 pageNumber, Int32 pageSize) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Entities\ReauestFeature\PagedList.cs:line 29
+   at Repository.EmplyeeRespository.GetEmployeesAsync(Guid companyId, EmployeeParamtere paramtere, Boolean trackChanges) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Repository\EmplyeeRespository.cs:line 20
+   at Api_New_Feature.Controllers.EmployeesController.GetEmployeesForCompany(Guid companyID, EmployeeParamtere paramtere) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Api_New_Feature\Controllers\EmployeesController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-10-31 10:14:26.5849 ERROR Something went wrong: System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.DecCalc.VarDecDiv(DecCalc& d1, DecCalc& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at Entities.ReauestFeature.PagedList`1..ctor(List`1 items, Int32 count, Int32 pagesize, Int32 pagenumer) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Entities\ReauestFeature\PagedList.cs:line 14
+   at Entities.ReauestFeature.PagedList`1.ToPagedList(IEnumerable`1 source, Int32 pageNumber, Int32 pageSize) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Entities\ReauestFeature\PagedList.cs:line 29
+   at Repository.EmplyeeRespository.GetEmployeesAsync(Guid companyId, EmployeeParamtere paramtere, Boolean trackChanges) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Repository\EmplyeeRespository.cs:line 20
+   at Api_New_Feature.Controllers.EmployeesController.GetEmployeesForCompany(Guid companyID, EmployeeParamtere paramtere) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Api_New_Feature\Controllers\EmployeesController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-10-31 10:15:21.9454 ERROR Something went wrong: System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.DecCalc.VarDecDiv(DecCalc& d1, DecCalc& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at Entities.ReauestFeature.PagedList`1..ctor(List`1 items, Int32 count, Int32 pagesize, Int32 pagenumer) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Entities\ReauestFeature\PagedList.cs:line 14
+   at Entities.ReauestFeature.PagedList`1.ToPagedList(IEnumerable`1 source, Int32 pageNumber, Int32 pageSize) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Entities\ReauestFeature\PagedList.cs:line 29
+   at Repository.EmplyeeRespository.GetEmployeesAsync(Guid companyId, EmployeeParamtere paramtere, Boolean trackChanges) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Repository\EmplyeeRespository.cs:line 20
+   at Api_New_Feature.Controllers.EmployeesController.GetEmployeesForCompany(Guid companyID, EmployeeParamtere paramtere) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Api_New_Feature\Controllers\EmployeesController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-10-31 10:15:36.1675 ERROR Something went wrong: System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.DecCalc.VarDecDiv(DecCalc& d1, DecCalc& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at Entities.ReauestFeature.PagedList`1..ctor(List`1 items, Int32 count, Int32 pagesize, Int32 pagenumer) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Entities\ReauestFeature\PagedList.cs:line 14
+   at Entities.ReauestFeature.PagedList`1.ToPagedList(IEnumerable`1 source, Int32 pageNumber, Int32 pageSize) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Entities\ReauestFeature\PagedList.cs:line 29
+   at Repository.EmplyeeRespository.GetEmployeesAsync(Guid companyId, EmployeeParamtere paramtere, Boolean trackChanges) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Repository\EmplyeeRespository.cs:line 20
+   at Api_New_Feature.Controllers.EmployeesController.GetEmployeesForCompany(Guid companyID, EmployeeParamtere paramtere) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Api_New_Feature\Controllers\EmployeesController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-10-31 10:16:34.5562 ERROR Something went wrong: System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.DecCalc.VarDecDiv(DecCalc& d1, DecCalc& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at Entities.ReauestFeature.PagedList`1..ctor(List`1 items, Int32 count, Int32 pagesize, Int32 pagenumer) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Entities\ReauestFeature\PagedList.cs:line 14
+   at Entities.ReauestFeature.PagedList`1.ToPagedList(IEnumerable`1 source, Int32 pageNumber, Int32 pageSize) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Entities\ReauestFeature\PagedList.cs:line 29
+   at Repository.EmplyeeRespository.GetEmployeesAsync(Guid companyId, EmployeeParamtere paramtere, Boolean trackChanges) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Repository\EmplyeeRespository.cs:line 20
+   at Api_New_Feature.Controllers.EmployeesController.GetEmployeesForCompany(Guid companyID, EmployeeParamtere paramtere) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Api_New_Feature\Controllers\EmployeesController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-10-31 10:17:19.4871 ERROR Something went wrong: System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.DecCalc.VarDecDiv(DecCalc& d1, DecCalc& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at Entities.ReauestFeature.PagedList`1..ctor(List`1 items, Int32 count, Int32 pagesize, Int32 pagenumer) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Entities\ReauestFeature\PagedList.cs:line 14
+   at Entities.ReauestFeature.PagedList`1.ToPagedList(IEnumerable`1 source, Int32 pageNumber, Int32 pageSize) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Entities\ReauestFeature\PagedList.cs:line 29
+   at Repository.EmplyeeRespository.GetEmployeesAsync(Guid companyId, EmployeeParamtere paramtere, Boolean trackChanges) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Repository\EmplyeeRespository.cs:line 20
+   at Api_New_Feature.Controllers.EmployeesController.GetEmployeesForCompany(Guid companyID, EmployeeParamtere paramtere) in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Api_New_Feature\Controllers\EmployeesController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)

@@ -1,0 +1,8 @@
+2024-10-23 10:18:04.9687 INFO Fetching all the WeatherForecast from the storage
+2024-10-23 10:18:04.9687 DEBUG This is debug message from the WeatherForecast controller.
+2024-10-23 10:18:04.9687 WARN This is warn message from the WeatherForecast controller.
+2024-10-23 10:18:04.9687 ERROR This is error message from the WeatherForecast controller.
+2024-10-23 10:18:06.0973 INFO Fetching all the WeatherForecast from the storage
+2024-10-23 10:18:06.0973 DEBUG This is debug message from the WeatherForecast controller.
+2024-10-23 10:18:06.0973 WARN This is warn message from the WeatherForecast controller.
+2024-10-23 10:18:06.0973 ERROR This is error message from the WeatherForecast controller.

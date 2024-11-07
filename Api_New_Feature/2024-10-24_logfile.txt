@@ -1,0 +1,29 @@
+2024-10-24 08:48:13.0828 INFO Returned all companies from database.
+2024-10-24 08:51:49.5988 INFO Returned all companies from database.
+2024-10-24 08:52:06.6208 INFO Returned all companies from database.
+2024-10-24 08:55:59.0444 INFO Returned all companies from database.
+2024-10-24 08:56:18.6875 INFO Returned all companies from database.
+2024-10-24 09:03:42.6232 INFO Returned all companies from database.
+2024-10-24 09:03:45.0061 INFO Returned all companies from database.
+2024-10-24 09:03:45.9819 INFO Returned all companies from database.
+2024-10-24 09:33:47.8145 ERROR Something went wrong: System.Exception: Exception
+   at Api_New_Feature.Controllers.CompanyController.GetCompanies() in C:\Users\oysle\Desktop\My Files\Api_New_Feature\Api_New_Feature\Controllers\CompanyController.cs:line 25
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-10-24 10:40:54.9212 INFO Returned all companies from database.
+2024-10-24 10:49:14.2485 INFO Returned all companies from database.
+2024-10-24 10:56:50.4863 INFO Returned all companies from database.
+2024-10-24 10:57:10.4789 INFO Returned all companies from database.
